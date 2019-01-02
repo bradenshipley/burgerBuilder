@@ -3,7 +3,7 @@ import "./BuildControl.css"
 
 const buildControl = props => (
   <div className='BuildControl'>
-    <div classname='Label'>{props.label}</div>
+    <div className='Label'>{props.label}</div>
     <button
       className='Less'
       onClick={props.removeIngredient}
