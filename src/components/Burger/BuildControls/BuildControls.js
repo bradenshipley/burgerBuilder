@@ -2,10 +2,10 @@ import React from "react"
 import "./BuildControls.css"
 import BuildControl from "./BuildControl/BuildControl"
 const controls = [
-  { label: "Salad", type: "salad" },
-  { label: "Bacon", type: "bacon" },
-  { label: "Cheese", type: "cheese" },
-  { label: "Meat", type: "meat" }
+  { key: 1, label: "Salad", type: "salad" },
+  { key: 2, label: "Bacon", type: "bacon" },
+  { key: 3, label: "Cheese", type: "cheese" },
+  { key: 4, label: "Meat", type: "meat" }
 ]
 const buildControls = props => (
   <div className='BuildControls'>
