@@ -4,12 +4,12 @@ import "./NavigationItems.css"
 const navigationItems = () => (
   <ul className='NavigationItems'>
     <li>
-      <NavigationItem link='/' active>
+      <NavigationItem link='/' exact>
         Burger Builder
       </NavigationItem>
     </li>
     <li>
-      <NavigationItem link='/'>Checkout</NavigationItem>
+      <NavigationItem link='/orders'>Orders</NavigationItem>
     </li>
   </ul>
 )

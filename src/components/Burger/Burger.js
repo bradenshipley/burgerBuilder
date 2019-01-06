@@ -1,5 +1,6 @@
 import React from "react"
 import "./Burger.css"
+import { withRouter } from "react-router-dom"
 import BurgerIngredient from "../BurgerIngredient/BurgerIngredient"
 const burger = props => {
   let transformedIngredients = Object.keys(props.ingredients)
@@ -22,4 +23,5 @@ const burger = props => {
     </div>
   )
 }
-export default burger
+//use withRouter if you need access to 'props.match' or 'props.history' etc
+export default withRouter(burger)
